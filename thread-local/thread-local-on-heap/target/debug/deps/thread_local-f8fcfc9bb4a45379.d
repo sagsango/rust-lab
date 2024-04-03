@@ -1,0 +1,10 @@
+/Users/sagarsingh/Documents/rust-lab/thread-local/thread-local-on-heap/target/debug/deps/libthread_local-f8fcfc9bb4a45379.rmeta: /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/lib.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/cached.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/thread_id.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/unreachable.rs
+
+/Users/sagarsingh/Documents/rust-lab/thread-local/thread-local-on-heap/target/debug/deps/libthread_local-f8fcfc9bb4a45379.rlib: /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/lib.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/cached.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/thread_id.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/unreachable.rs
+
+/Users/sagarsingh/Documents/rust-lab/thread-local/thread-local-on-heap/target/debug/deps/thread_local-f8fcfc9bb4a45379.d: /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/lib.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/cached.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/thread_id.rs /Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/unreachable.rs
+
+/Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/lib.rs:
+/Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/cached.rs:
+/Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/thread_id.rs:
+/Users/sagarsingh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thread_local-1.1.8/src/unreachable.rs:
