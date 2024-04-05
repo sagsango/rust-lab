@@ -1,0 +1,3 @@
+[submodule "rust-algo"]
+	path = rust-algo
+	url = https://github.com/sagsango/Rust-algorithms.git
