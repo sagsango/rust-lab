@@ -15,12 +15,12 @@ fn main() {
         threads.push(thread_handle);
     }
 
-    // Wait for all threads to finish
+    /* Wait for all threads to finish */
     for thread_handle in threads {
-        let _ = thread_handle.join(); // Ignore the result
+        let _ = thread_handle.join(); /* Ignore the result */
     }
 
-    // Now that all threads have finished modifying the data, print the final result
+    /* Now that all threads have finished modifying the data, print the final result */
     let data_final = data.lock().unwrap();
     println!("Modified data: {:?}", *data_final);
 

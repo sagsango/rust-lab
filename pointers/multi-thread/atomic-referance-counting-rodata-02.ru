@@ -4,11 +4,13 @@ use std::thread;
 fn main() {
 	/*
 	   Arc::new(vec![1, 2, 3]) allocates memory in two places:
-	   1. Vector Allocation: The vec![1, 2, 3]: allocation occurs on the heap because vectors in 
-	   Rust are dynamically sized and typically require heap allocation.
+	   1. Heap Allocation for Integer: When you call Arc::new(1), Rust allocates memory on the heap 
+	      to hold the integer value 1. This is because integers in Rust are of fixed size and are 
+              typically stored on the stack. However, Arc requires data to be heap-allocated so it 
+	      can manage shared ownership across multiple threads.
 	   2. Arc Allocation: The Arc::new(...) part allocates memory for the Arc structure itself 
-	   on the heap. This structure contains a pointer to the heap-allocated 
-	   vector data and maintains the reference count for that data.
+	      on the heap. This structure contains a pointer to the heap-allocated 
+	      vector data and maintains the reference count for that data.
 	 */
 	let data = Arc::new(vec![1, 2, 3]);
 	let mut threads = vec![];
@@ -22,7 +24,7 @@ fn main() {
 		let data_clone = Arc::clone(&data);
 		let thread_handle = thread::spawn(move || {
 				println!("{:?}", data_clone);
-				});
+		});
 		threads.push(thread_handle);
 	}
 
