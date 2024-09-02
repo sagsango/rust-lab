@@ -1,3 +1,6 @@
 [submodule "rust-algo"]
 	path = rust-algo
 	url = https://github.com/sagsango/Rust-algorithms.git
+[submodule "rust-playground"]
+	path = rust-playground
+	url = https://github.com/sagsango/rust-playground.git
